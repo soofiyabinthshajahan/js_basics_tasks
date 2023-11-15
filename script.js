@@ -14,4 +14,14 @@ function printArray(argumentArray) {
   let b = printArray(argument);
   console.log(b);
   
-  
+  //Even or Odd:
+//Create a function that takes a number as input and logs whether it's even or odd.
+
+function numberCheck(argumentNumber) {
+  if (argumentNumber % 2 === 0) {
+    console.log(`the given ${argumentNumber} is an even number`);
+  }
+  console.log(`the given ${argumentNumber} is an odd number`);
+}
+
+numberCheck(25);
