@@ -25,3 +25,19 @@ function numberCheck(argumentNumber) {
 }
 
 numberCheck(25);
+
+
+// Sum of Array:
+// Write a function that calculates and returns the sum of elements in an array.
+
+function arraySum(argumentArray1) {
+  let sum = 0;
+  for (let i = 0; i <= argumentArray1.length; i++) {
+  sum += i;
+  }
+  console.log(sum);
+
+}
+
+let sumArray = [1, 2, 3, 4, 5];
+arraySum(sumArray);
